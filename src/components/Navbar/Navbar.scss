@@ -1,15 +1,19 @@
-nav{
-    position:fixed;
+nav {
+    position: fixed;
     width: 90vw;
     left: 0;
     right: 0;
     margin: auto;
-    bottom:0;
-    ol{
+    bottom: 0;
+
+    ol {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        background-color: red;
         margin: auto;
+
+        li {
+            font-size: 10vw;
+        }
     }
 }
