@@ -1,0 +1,33 @@
+@font-face {
+  font-family: BingoFont;
+  src: url(./fonts/BINGO.ttf), local("BingoFont");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  font-family: BingoFont;
+  text-align: center;
+}
+
+h1{
+  font-size: 28vw;
+  color: white;
+}
+
+
+body {
+  margin: 0;
+  font-family: BingoFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFBB00;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
