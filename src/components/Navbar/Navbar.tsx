@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link, Outlet,useLocation } from "react-router-dom";
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import './Navbar.scss'
-import { LocalDining } from '@material-ui/icons';
 
 const Navbar = (props:any) => {
   const [currentLocation, setCurrentLocation] = useState<any>()
