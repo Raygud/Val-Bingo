@@ -30,8 +30,8 @@
     width: 85vw;
     height: 80vw;
     overflow: scroll;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(4, 25%);
+    grid-template-columns: repeat(4, 1vw);
+    grid-template-rows: repeat(4, 1vw);
 }
 
 .EnteriesItem {
