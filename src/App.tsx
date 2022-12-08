@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 export default function App() {
   return (
     <>
-    <h1>VAL <br /> BINGO!</h1>
+    <h1>VAL BINGO!</h1>
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
