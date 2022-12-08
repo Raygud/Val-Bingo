@@ -1,7 +1,6 @@
 import './Home.scss'
 import { useState, useEffect } from 'react'
-import { BsListUl, BsGrid, BsGithub, BsLinkedin } from 'react-icons/bs';
-import { parse } from 'node:path/win32';
+import { BsListUl, BsGrid } from 'react-icons/bs';
 import Navbar from '../../components/Navbar/Navbar';
 import confetti from './confetti.gif'
 
@@ -42,7 +41,6 @@ export const Home = () => {
     const [lastClicked, setLastClicked] = useState<boolean>(false)
     const [layout, setLayout] = useState<string>("grid")
 
-    const [isSet, setSet] = useState<any>(true)
     const iconStyle = { color: 'black', fontSize: '8vw', margin: '1vw' }
 
     const onClick = (Clicked: number) => {
