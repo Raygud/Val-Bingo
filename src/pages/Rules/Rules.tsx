@@ -1,5 +1,6 @@
 import React from 'react';
 import './Rules.scss'
+import Qr from './qr.png'
 
 
   
@@ -28,6 +29,7 @@ import './Rules.scss'
         {requirements.map((item:any,index:number) => 
           <div><h3>{index}:&nbsp;&nbsp;{item}</h3></div>
         )}
+        <img src={Qr} alt="" />
       </div>
     );
   }
