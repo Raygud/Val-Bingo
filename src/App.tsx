@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Routes, Route} from "react-router-dom";
-import {Rules,NoMatch} from './pages/Pages'
+import {NoMatch} from './pages/Pages'
+import {Rules} from './pages/Rules/Rules'
 import {Home} from './pages/Home/Home'
 import Navbar from './components/Navbar/Navbar'
 export default function App() {

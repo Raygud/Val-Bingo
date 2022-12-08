@@ -21,3 +21,9 @@ nav {
 .MainContainer{
     overflow: hidden;
 }
+
+@media screen and (min-width: 999px) {
+    nav{
+        display: none;
+    }
+  }

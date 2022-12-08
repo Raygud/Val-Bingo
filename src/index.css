@@ -14,9 +14,17 @@
 }
 
 h1{
-  font-size: 15vw;
+  font-size: 25vw;
   color: white;
 }
+
+@media screen and (max-height: 667px) {
+  h1{
+    font-size: 15vw;
+    color: white;
+  }
+}
+
 
 
 body {
